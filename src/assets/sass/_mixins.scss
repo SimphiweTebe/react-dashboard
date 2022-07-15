@@ -1,0 +1,11 @@
+@use './variables' as *;
+
+@mixin purple{
+    background-image: linear-gradient(to right, $slateBlue, $red);
+}
+
+@mixin flex($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}

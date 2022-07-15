@@ -15,9 +15,9 @@ function TabNav() {
     
   return (
     <StyledNav>
-        <Link to="/reports/report1">Report 1</Link>
-        <Link to="/reports/report2">Report 2</Link>
-        <Link to="/reports/report3">Report 3</Link>
+        <Link to="/reports/report1">Weeks</Link>
+        <Link to="/reports/report2">Months</Link>
+        <Link to="/reports/report3">Years</Link>
     </StyledNav>
   )
 }

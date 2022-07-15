@@ -9,25 +9,27 @@ const StyledSideBar = styled.nav`
   position: sticky;
   top: 0;
   left: 0;
+  min-width: 170px;
+  border-right: 2px solid #F0F0F0;
+  padding-right: 20px;
 
   a{
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: 500;
-    color: #000;
     padding: 8px 15px;
     border-radius: 6px;
-    /* transition: all .2s ease-in-out; */
+    color: #000;
 
     &:hover{
-      background: #000;
+      background: #6a5acd;
       color: #fff;
     }
   }
 
   .count{
-    background-color: grey;
+    background-color: #bb3385;
     color: #fff;
     padding: 4px 5px;
     border-radius: 50%;
