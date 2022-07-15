@@ -1,4 +1,4 @@
-# React Dashboard App
+# Dashboard App
 
 A dashboard skeleton to be used as a tamplate when working on new projects.
 
